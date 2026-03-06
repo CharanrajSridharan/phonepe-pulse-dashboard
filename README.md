@@ -1,7 +1,7 @@
-📱**PhonePe Pulse Data Analysis Dashboard** 
+#📱**PhonePe Pulse Data Analysis Dashboard** 
 
 
-📌 Project Overview
+#📌 Project Overview
 
 This project analyzes digital payment trends in India using the PhonePe Pulse dataset and presents insights through an interactive Streamlit dashboard.
 
