@@ -6,7 +6,7 @@ This project analyzes digital payment trends in India using the PhonePe Pulse da
 
 The objective of this project is to understand how digital payments are growing across India and identify patterns in transactions, user engagement, and insurance adoption.
 
-Key Objectives
+### Key Objectives
 
 • Analyze transaction value and volume across Indian states and districts
 • Understand user registration growth and app engagement
@@ -14,38 +14,39 @@ Key Objectives
 • Study insurance usage trends within the PhonePe ecosystem
 • Build an interactive dashboard to visualize insights
 
-The project demonstrates a complete data analytics pipeline, including:
+### The project demonstrates a complete data analytics pipeline, including:
 
-Data extraction from GitHub
+1.Data extraction from GitHub
 
-Data transformation using Python
+2.Data transformation using Python
 
-Data storage using SQL
+3.Data storage using SQL
 
-Data analysis using SQL queries
+4.Data analysis using SQL queries
 
-Data visualization using Streamlit and Python libraries
+5.Data visualization using Streamlit and Python libraries
 
-🛠 Code and Resources Used
+## 🛠 Code and Resources Used
 Programming Language
 
 Python 3.x
 
-(Update this if you know your exact version. You can check using python --version.)
+### 📚 Libraries Used:
 
-Libraries Used
-Library	Purpose
-Pandas	Data manipulation and analysis
-Streamlit	Interactive dashboard development
-MySQL Connector	Connecting Python with MySQL database
-Matplotlib	Creating charts and plots
-Plotly	Interactive visualizations
-JSON	Parsing raw dataset files
+| Library | Purpose |
+|--------|--------|
+| Pandas | Data manipulation and analysis |
+| Streamlit | Interactive dashboard development |
+| MySQL Connector | Connecting Python with MySQL database |
+| Matplotlib | Creating charts and plots |
+| Plotly | Interactive visualizations |
+| JSON | Parsing raw dataset files |
 
-Example installation:
+#### Example installation:
 
 pip install pandas streamlit mysql-connector-python matplotlib plotly
-Development Tools
+
+### Development Tools:
 
 • Python
 • Jupyter Notebook
@@ -53,18 +54,17 @@ Development Tools
 • Streamlit
 • Git & GitHub
 
-External Resources Used
-PhonePe Dataset
+### External Resources Used:
 
-Dataset Source:
+1.PhonePe Dataset
 
-PhonePe Pulse GitHub Repository
+Dataset Source: PhonePe Pulse GitHub Repository
 
 https://github.com/PhonePe/pulse
 
 This repository contains public data about digital payments in India.
 
-India Choropleth Map (GeoJSON)
+2.India Choropleth Map (GeoJSON):
 
 The India state map used in the dashboard was obtained from:
 
@@ -72,7 +72,7 @@ https://gist.githubusercontent.com/jbrobst/56c13bbbf9d97d187fea01ca62ea5112/raw/
 
 This GeoJSON file is used to create the interactive India map visualization in the Streamlit dashboard.
 
-📊 Dataset Description
+## 📊 Dataset Description
 
 The dataset used in this project comes from the PhonePe Pulse GitHub repository.
 
@@ -80,16 +80,17 @@ The data is organized in JSON format and contains information about digital tran
 
 The dataset is categorized into three main sections.
 
-1️⃣ Aggregated Data
+### 1️⃣ Aggregated Data
 
 Aggregated data provides summarized metrics across different states.
 
 Tables created:
 
-Table Name	Description
-aggregated_user	Contains registered users and app opens
-aggregated_transaction	Contains transaction value and transaction count
-aggregated_insurance	Contains insurance transaction data
+| Table Name | Description |
+|-----------|------------|
+| aggregated_user | Contains registered users and app opens |
+| aggregated_transaction | Contains transaction value and transaction count |
+| aggregated_insurance | Contains insurance transaction data |
 
 This data helps analyze:
 
@@ -97,37 +98,39 @@ This data helps analyze:
 • User adoption
 • Insurance usage
 
-2️⃣ Map Data
+### 2️⃣ Map Data
 
 Map data provides more granular location-based insights.
 
 Tables created:
 
-Table Name	Description
-map_user	User distribution across districts
-map_transaction	Transaction mapping across states and districts
-map_insurance	Insurance distribution data
+| Table Name | Description |
+|-----------|------------|
+| map_user | User distribution across districts |
+| map_transaction | Transaction mapping across states and districts |
+| map_insurance | Insurance distribution data |
 
 This data is useful for geographical analysis.
 
-3️⃣ Top Data
+### 3️⃣ Top Data
 
 Top data provides the highest performing regions.
 
 Tables created:
 
-Table Name	Description
-top_user	Top users by region
-top_transaction	Top states, districts and pincodes by transaction
-top_insurance	Top regions by insurance usage
+| Table Name | Description |
+|-----------|------------|
+| top_user| Top users by region |
+|top_transaction | Top states, districts and pincodes by transaction |
+|top_insurance|Top regions by insurance usage |
 
 This helps identify high-performing regions.
 
-🧹 Data Cleaning and Preprocessing
+## 🧹 Data Cleaning and Preprocessing
 
 Before analysis, the dataset required several preprocessing steps.
 
-Data Cleaning Steps
+### Data Cleaning Steps
 
 • Extracted data from JSON files
 • Converted nested JSON structures into structured tables
@@ -142,13 +145,13 @@ df["State"] = df["State"].str.replace("-", " ").str.title()
 
 This ensured the state names match the GeoJSON map structure.
 
-🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 Exploratory Data Analysis was performed using SQL queries and Python visualizations.
 
 The analysis focuses on five business case studies.
 
-1️⃣ Transaction Analysis for Market Expansion
+### 1️⃣ Transaction Analysis for Market Expansion
 
 This analysis explores:
 
@@ -162,7 +165,7 @@ Purpose:
 
 To identify regions with strong digital payment adoption.
 
-2️⃣ User Engagement and Growth Strategy
+### 2️⃣ User Engagement and Growth Strategy
 
 Key metrics analyzed:
 
@@ -176,7 +179,7 @@ Purpose:
 
 To understand user activity and engagement patterns.
 
-3️⃣ Insurance Engagement Analysis
+### 3️⃣ Insurance Engagement Analysis
 
 Analysis includes:
 
@@ -190,7 +193,7 @@ Purpose:
 
 To identify insurance adoption trends.
 
-4️⃣ Transaction Analysis Across States and Districts
+### 4️⃣ Transaction Analysis Across States and Districts
 
 This analysis explores:
 
@@ -203,7 +206,7 @@ Purpose:
 
 To identify high-value digital payment regions.
 
-5️⃣ User Registration Analysis
+### 5️⃣ User Registration Analysis
 
 Metrics analyzed:
 
@@ -216,11 +219,11 @@ Purpose:
 
 To understand regional adoption of PhonePe services.
 
-📈 Dashboard Features
+## 📈 Dashboard Features
 
 An interactive dashboard was built using Streamlit.
 
-Main features include:
+### Main features include:
 
 India Overview Map
 
@@ -236,7 +239,7 @@ Business Case Analysis
 
 The dashboard contains five analytical sections.
 
-Each section includes:
+### Each section includes:
 
 • SQL-based data queries
 • Visualizations using Matplotlib and Plotly
@@ -252,14 +255,12 @@ Users can interact with the dashboard by selecting:
 
 This allows deeper exploration of the dataset.
 
-📷 Dashboard Preview
+## 📷 Dashboard Preview
 
-(Add screenshots here in GitHub)
+<img width="1901" height="856" alt="image" src="https://github.com/user-attachments/assets/bb2caed8-ce20-4d7a-9bf9-673c9c010639" />
+<img width="1889" height="863" alt="image" src="https://github.com/user-attachments/assets/ce46f611-d412-41b9-b76c-4c0688477482" />
+<img width="1092" height="803" alt="image" src="https://github.com/user-attachments/assets/046cceec-31de-4e58-9f7f-04fe4e7f9e8f" />
 
-Example:
-
-/screenshots/dashboard_home.png
-/screenshots/analysis_page.png
 🚀 How to Run the Project
 Step 1
 
