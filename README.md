@@ -95,7 +95,9 @@ Tables created:
 This data helps analyze:
 
 • Transaction growth
+
 • User adoption
+
 • Insurance usage
 
 ### 2️⃣ Map Data
@@ -161,9 +163,13 @@ The analysis focuses on five business case studies.
 This analysis explores:
 
 • Total transaction value by state
+
 • Total transaction count by state
+
 • Year-wise transaction growth
+
 • Quarterly transaction trends
+
 • Average transaction value per state
 
 Purpose:
@@ -175,9 +181,13 @@ To identify regions with strong digital payment adoption.
 Key metrics analyzed:
 
 • Total registered users by state
+
 • Total app opens by state
+
 • User engagement rate
+
 • Year-wise user growth
+
 • Quarterly user growth trends
 
 Purpose:
@@ -189,9 +199,13 @@ To understand user activity and engagement patterns.
 Analysis includes:
 
 • Insurance amount by state
+
 • Total insurance policies by state
+
 • District contribution to insurance value
+
 • Year-wise insurance growth
+
 • Average insurance value per district
 
 Purpose:
@@ -203,8 +217,11 @@ To identify insurance adoption trends.
 This analysis explores:
 
 • Top districts by transaction value
+
 • Top pincodes by transaction count
+
 • Average transaction value by district
+
 • Transaction growth over time
 
 Purpose:
@@ -216,8 +233,11 @@ To identify high-value digital payment regions.
 Metrics analyzed:
 
 • State-wise total registrations
+
 • Quarterly registration growth
+
 • Top districts by registration
+
 • Top pincodes by registrations
 
 Purpose:
@@ -235,7 +255,9 @@ India Overview Map
 The dashboard displays an interactive map showing:
 
 • Transaction Value
+
 • Registered Users
+
 • Insurance Amount
 
 Users can switch between different metrics using a dropdown.
@@ -247,7 +269,9 @@ The dashboard contains five analytical sections.
 ### Each section includes:
 
 • SQL-based data queries
+
 • Visualizations using Matplotlib and Plotly
+
 • Key insights explaining the results
 
 Interactive Filters
@@ -255,7 +279,9 @@ Interactive Filters
 Users can interact with the dashboard by selecting:
 
 • Year
+
 • State
+
 • Case study
 
 This allows deeper exploration of the dataset.
