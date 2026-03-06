@@ -133,10 +133,15 @@ Before analysis, the dataset required several preprocessing steps.
 ### Data Cleaning Steps
 
 • Extracted data from JSON files
+
 • Converted nested JSON structures into structured tables
+
 • Standardized state names for consistency
+
 • Removed formatting issues such as hyphens in state names
+
 • Converted data types for numerical analysis
+
 • Handled missing values where necessary
 
 Example transformation used in the dashboard:
