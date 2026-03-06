@@ -9,9 +9,13 @@ The objective of this project is to understand how digital payments are growing 
 ### Key Objectives
 
 • Analyze transaction value and volume across Indian states and districts
+
 • Understand user registration growth and app engagement
+
 • Identify regions with high digital payment adoption
+
 • Study insurance usage trends within the PhonePe ecosystem
+
 • Build an interactive dashboard to visualize insights
 
 ### The project demonstrates a complete data analytics pipeline, including:
@@ -49,9 +53,13 @@ pip install pandas streamlit mysql-connector-python matplotlib plotly
 ### Development Tools:
 
 • Python
+
 • Jupyter Notebook
+
 • MySQL Database
+
 • Streamlit
+
 • Git & GitHub
 
 ### External Resources Used:
@@ -313,9 +321,13 @@ streamlit run app.py
 Some insights discovered during the analysis:
 
 • Digital payment transactions have grown significantly over the years.
+
 • States like Maharashtra and Karnataka dominate transaction value.
+
 • High user registrations strongly correlate with high app engagement.
+
 • Insurance adoption is increasing steadily across districts.
+
 • Certain districts contribute disproportionately to transaction volume.
 
 🔮 Future Improvements
@@ -323,9 +335,13 @@ Some insights discovered during the analysis:
 Possible enhancements for this project include:
 
 • Adding district-level interactive maps
+
 • Implementing real-time data updates
+
 • Adding predictive analytics models
+
 • Creating mobile-friendly dashboard layout
+
 • Deploying the dashboard on Streamlit Cloud or AWS
 
 👨‍💻 Author
