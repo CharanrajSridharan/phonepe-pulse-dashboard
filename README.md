@@ -320,6 +320,13 @@ Run the Streamlit application
 
 streamlit run app.py
 
+Step 4
+
+Import the database dump into MySQL.
+
+You can find the SQL dump files inside the `database` folder.
+Import them into MySQL Workbench before running the application.
+
 📊 Key Insights
 
 Some insights discovered during the analysis:
