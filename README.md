@@ -301,21 +301,25 @@ This allows deeper exploration of the dataset.
 <img width="1092" height="803" alt="image" src="https://github.com/user-attachments/assets/046cceec-31de-4e58-9f7f-04fe4e7f9e8f" />
 
 🚀 How to Run the Project
+
 Step 1
 
 Clone the repository
 
 git clone https://github.com/yourusername/phonepe-pulse-dashboard.git
+
 Step 2
 
 Install required libraries
 
 pip install -r requirements.txt
+
 Step 3
 
 Run the Streamlit application
 
 streamlit run app.py
+
 📊 Key Insights
 
 Some insights discovered during the analysis:
