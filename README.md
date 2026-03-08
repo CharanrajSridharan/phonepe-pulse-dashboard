@@ -306,7 +306,7 @@ Step 1
 
 Clone the repository
 
-git clone https://github.com/yourusername/phonepe-pulse-dashboard.git
+https://github.com/CharanrajSridharan/phonepe-pulse-dashboard.git
 
 Step 2
 
